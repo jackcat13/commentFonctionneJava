@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Comment fonctionne Java ?</title>
+    <meta name="description" content="Comment fonctionne Java ?">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS WebSlides -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
+    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>
+  <body>
+
+    <main role="main">
+      <article id="webslides" class="vertical">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1><strong>Chapitre 1</strong></h1>
+            <h2>Comment fonctionne Java ?</h2>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <span data-step-count=3></span>
+          <header>
+            <h1 class="aligncenter"><strong>Fonctionnement d'un compilateur</strong></h1>
+          </header>
+          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+            <img src="./static/images/codeSource.png" width="500px"/>
+          </div>
+          <div style="position: absolute; top: 400px; left: 450px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 450px; left: 650px" class="animate-show" data-step=2>
+            <img src="./static/images/gears.jpg" width="400px"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 1100px" class="animate-show" data-step=3>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 650px; left: 1300px" class="animate-show" data-step=3>
+            <img src="./static/images/codeMachine.png" width="300px"/>
+          </div>
+        </section>
+
+        <section>
+          <span data-step-count=3></span>
+          <header>
+            <h1 class="aligncenter"><strong>Compilation de Java</strong></h1>
+          </header>
+          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+            <img src="./static/images/javaSource.png" width="500px"/>
+          </div>
+          <div style="position: absolute; top: 400px; left: 450px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 450px; left: 650px" class="animate-show" data-step=2>
+            <img src="./static/images/gears.jpg" width="400px"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 1100px" class="animate-show" data-step=3>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 750px; left: 1250px" class="animate-show" data-step=3>
+            <img src="./static/images/bytecode.jpg" width="400px"/>
+          </div>
+        </section>
+
+        <section>
+          <span data-step-count=4></span>
+          <header>
+            <h1 class="aligncenter"><strong>Exécution du bytecode Java</strong></h1>
+          </header>
+          <div style="position: absolute; top: 250px; left: 150px" class="animate-show" data-step=1>
+            <img src="./static/images/bytecode.jpg" width="500px"/>
+          </div>
+          <div style="position: absolute; top: 400px; left: 750px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 450px; left: 950px" class="animate-show" data-step=2>
+            <img src="./static/images/JVM.png" width="400px"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 1400px" class="animate-show" data-step=3>
+            <img src="./static/images/refreshArrow.png"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 150px" class="animate-show" data-step=4>
+            <div class="important">
+              <p>
+                La machine virtuelle permet notamment :
+                <ul>
+                  <li>l'interprétation du bytecode</li>
+                  <li>l'interaction avec le système d'exploitation</li>
+                  <li>la gestion de sa mémoire grâce au ramasse-miettes</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <span data-step-count=3></span>
+          <header>
+            <h1 class="aligncenter"><strong>Les outils du JDK (Java Development Kit)</strong></h1>
+          </header>
+          <div style="position: absolute; top: 250px; left: 150px" class="animate-show" data-step=1>
+            <img src="./static/images/gears.jpg" width="200px"/>
+            <div class="important" style="margin-left: 200px;">
+              <p>Le compilateur Javac :</p>
+              <p><span class="code">javac MaClasse.java</span>  =>  MaClasse.class</p>
+            </div>
+          </div>
+          <div style="position: absolute; top: 500px; left: 150px" class="animate-show" data-step=2>
+            <img src="./static/images/JVM.png"/ width="150px">
+            <div class="important" style="margin-left: 250px;">
+              <p>L'interpréteur java / javaw : </p>
+              <p><span class="code">java MaClasse</span>  =>  Ouvre une console et exécute le bytecode MaClass.class</p>
+              <p><span class="code">javaw MaClasse</span>  =>  Exécute le bytecode MaClass.class sans ouvrir de console</p>
+            </div>
+          </div>
+          <div style="position: absolute; top: 800px; left: 150px" class="animate-show" data-step=3>
+            <img src="./static/images/jar.png" width="150px"/>
+            <div class="important" style="margin-left: 250px;">
+              <p>L'outil jar :</p>
+              <p><span class="code">jar cf test.jar *.class</span>  =>  Création d'un jar avec tous les fichiers .class</p>
+            </div>
+          </div>
+        </section>
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script src="./webslides-animation.js"></script>
+    <script>
+      window.ws = new WebSlides();
+      new WebSlidesAnimation(window.ws);
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
